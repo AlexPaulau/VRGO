@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRGO.Api", "VRGO.Api\VRGO.Api.csproj", "{C728EA78-4E39-426E-8DAA-C1E1F66DFB1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRGO.Spa", "VRGO.Spa\VRGO.Spa.csproj", "{F462D1A2-FF69-49C8-B9FA-6D2A991A5E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C728EA78-4E39-426E-8DAA-C1E1F66DFB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C728EA78-4E39-426E-8DAA-C1E1F66DFB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C728EA78-4E39-426E-8DAA-C1E1F66DFB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C728EA78-4E39-426E-8DAA-C1E1F66DFB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F462D1A2-FF69-49C8-B9FA-6D2A991A5E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F462D1A2-FF69-49C8-B9FA-6D2A991A5E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F462D1A2-FF69-49C8-B9FA-6D2A991A5E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F462D1A2-FF69-49C8-B9FA-6D2A991A5E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
