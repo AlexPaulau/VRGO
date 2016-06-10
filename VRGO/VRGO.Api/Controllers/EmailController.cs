@@ -24,9 +24,9 @@ namespace VRGO.Api.Controllers
 			try
 	        {
 				SendEmail(viewModel);
-		        return Ok();
+		        return Ok("Success");
 	        }
-	        catch (Exception e)
+	        catch (Exception)
 	        {
 		        return InternalServerError();
 	        }
@@ -44,7 +44,7 @@ namespace VRGO.Api.Controllers
 		    };
 		    client.Credentials = new NetworkCredential(SmtpLogin, SmtpPassword);
 
-			var mailMessage = new MailMessage(new MailAddress(viewModel.EmailAddress, viewModel.Name), new MailAddress(SmtpLogin, "Info"))
+			var mailMessage = new MailMessage(new MailAddress(SmtpLogin, viewModel.Name), new MailAddress(SmtpLogin, "Info"))
 		    {
 			    Subject = Resources.EmailSubject,
 			    Body = $"{viewModel.Message}{Environment.NewLine}Номер телефона: {viewModel.PhoneNumber}{Environment.NewLine}Email адрес: {viewModel.EmailAddress}"
