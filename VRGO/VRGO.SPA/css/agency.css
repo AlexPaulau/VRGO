@@ -561,6 +561,7 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  max-height: 250px;	  
 }
 .team-member h4 {
   margin-top: 25px;
@@ -803,7 +804,9 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
 #services ul>li{font-size: 24px; line-height:1.5}
 
-
-
+.no-margin {
+  margin-bottom: 0px !important;
+}

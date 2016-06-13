@@ -1,6 +1,6 @@
 $(function(){
     PNotify.prototype.options.styling = "bootstrap3";
-    PNotify.prototype.options.delay = 1000;
+    PNotify.prototype.options.delay = 3000;
 
     var showNotification = function (deffered) {
     	deffered
