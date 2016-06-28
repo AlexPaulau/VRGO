@@ -313,6 +313,12 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+h3.subheading {
+  font-size: 16px;
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+}
 @media (min-width: 768px) {
   section {
     padding: 100px 0;

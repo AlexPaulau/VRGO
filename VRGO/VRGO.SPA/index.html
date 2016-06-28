@@ -32,6 +32,10 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script type="text/javascript">  var appInsights=window.appInsights||function(config){    function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;for(s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js",u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=["Event","Exception","Metric","PageView","Trace"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t    }({        instrumentationKey:"0bf65f25-ad20-405e-ac20-94279c2e02fa"    });           
+        window.appInsights=appInsights;    
+        appInsights.trackPageView();
+    </script>
 </head>
 
 <body id="page-top" class="index">
@@ -60,9 +64,6 @@
                     <li>
                         <a class="page-scroll" href="#htc-vive">HTC Vive</a>
                     </li>
-<!--                     <li>
-                        <a class="page-scroll" href="#portfolio">Портфолио</a>
-                    </li> -->
                     <li>
                         <a class="page-scroll" href="#services">Услуги</a>
                     </li>
@@ -322,32 +323,16 @@
     </section>
 
     <!-- Clients Aside -->
-    <!--<aside class="clients">
-        <div class="container">
+    <aside class="clients bg-light-gray">
+        <div class="container text-center">
+            <h3 class="subheading text-muted">Нас выбирают:</h2>
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
+                <a href="#">
+                    <img src="img/logos/altoros.png" class="img-responsive img-centered" alt="">
+                </a>
             </div>
         </div>
-    </aside>-->
+    </aside>
     
     <!-- Contact Section -->
     <section id="contact">
@@ -426,10 +411,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
+                        <li>ИП Радевич А.И. УНП 192664940</li>
                     </ul>
                 </div>
             </div>
