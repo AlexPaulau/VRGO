@@ -1,1 +1,1 @@
-Sitemap: http://vrgo.by/sitemap.txt
+Sitemap: http://vrgo.by/sitemap.xml
