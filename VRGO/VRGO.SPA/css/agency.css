@@ -195,7 +195,6 @@ fieldset[disabled] .btn-xl.active {
 @media (max-width: 992px) {
   header div.intro-text {
     text-align: center;
-    padding-left: 0;
   }
 }
 @media (min-width: 768px) {
@@ -240,23 +239,68 @@ header {
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
-  padding-left: 44%;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
 }
-header .intro-text .intro-lead-in {
-  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
+header .intro-text .intro-lead-in.intro-lead-in-1 {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+header .intro-text .intro-lead-in.intro-lead-in-2 {
+  margin-bottom: 10px;
+}
+header .intro-text .intro-lead-in.intro-lead-in-2 {
+  font-size: 50px;
+  letter-spacing: 1px;
 }
 header .intro-text .intro-heading {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-weight: normal!important;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
+  line-height: 1;
+  font-weight: 100;
+}
+.intro-btn{
+  background: transparent;
+  color: #fff;
+  border-top: 2px solid #fff;
+  padding: 10px 0;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.intro-btn:active,
+.intro-btn:focus,
+.intro-btn:visited,
+.intro-btn:hover{
+  color: #fff;
+  text-decoration: none;
+}
+header .intro-text .intro-heading.intro-heading-1 {
+  font-size: 103px;
+  margin-bottom: 55px;
+  letter-spacing: 1px;
+}
+header .intro-text .intro-heading.intro-heading-2 {
+  margin-bottom: 15px;
+}
+header .intro-text .intro-heading.intro-heading-2 .inner{
+  display: inline-block;
+  position: relative;
+  padding-left: 56px;
+  font-size: 88px;
+}
+header .intro-text .intro-heading .rotated{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  transform: rotate(-90deg);
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  font-size: 32px;
+  top: 28px;
 }
 header .container {
   z-index: 2;
@@ -274,22 +318,16 @@ header:after {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 240px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     line-height: 40px;
-    margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
     text-transform: uppercase;
-    font-weight: normal!important;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
+    line-height: 1;
     margin-bottom: 50px;
   }
 }
