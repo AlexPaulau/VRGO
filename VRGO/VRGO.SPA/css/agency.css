@@ -170,10 +170,10 @@ fieldset[disabled] .btn-xl.active {
   background-color: #215779;
 }
 .navbar-default .nav li a {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  font-weight: normal!important;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 18px;
   letter-spacing: 1px;
   color: white;
 }
@@ -224,10 +224,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-current.jpg');
+  background-image: url('../img/header-unfocus.jpg');
   background-repeat: none;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center top;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -294,7 +294,7 @@ header .intro-text .intro-heading.intro-heading-2 .inner{
 }
 header .intro-text .intro-heading .rotated{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   transform: rotate(-90deg);
   display: inline-block;
   position: absolute;
@@ -305,16 +305,6 @@ header .intro-text .intro-heading .rotated{
 header .container {
   z-index: 2;
   position: relative;
-}
-header:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -840,11 +830,13 @@ body {
   display: inline-block;
   float: right;
   font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 300 ;
   position: relative;
   z-index: 3;
 }
 
-.navbar .tel:hover{
+.navbar .tel:hover, .navbar .tel:focus{
   color: #fff;
   text-decoration: none;
 }
