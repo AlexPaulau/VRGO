@@ -605,8 +605,13 @@ h3.subheading {
 .team-member p {
   margin-top: 0;
 }
+aside.clients .logo-container {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
 aside.clients img {
-  margin: 50px auto;
+  margin: 10px 0;
 }
 section#contact {
   background-color: #222222;
@@ -886,4 +891,8 @@ body {
 
 .blueimp-gallery .title {
   text-transform: none;
+}
+.center-block {
+  display: table;
+  margin: 0 auto;
 }
