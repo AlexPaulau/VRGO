@@ -13,4 +13,9 @@ $(function(){
 		event.preventDefault()
 		blueimp.Gallery($('#grand-fiesta-company-portfolio-links a'), $('#blueimp-gallery').data())
 	})
+
+	$('#open-art-festival-portfolio').on('click', function (event) {
+		event.preventDefault()
+		blueimp.Gallery($('#open-art-festival-links a'), $('#blueimp-gallery').data())
+	})
 })
