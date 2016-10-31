@@ -18,4 +18,9 @@ $(function(){
 		event.preventDefault()
 		blueimp.Gallery($('#open-art-festival-links a'), $('#blueimp-gallery').data())
 	})
+
+	$('#secret-birthday-portfolio').on('click', function (event) {
+		event.preventDefault()
+		blueimp.Gallery($('#secret-birthday-links a'), $('#blueimp-gallery').data())
+	})
 })
