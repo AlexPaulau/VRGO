@@ -23,4 +23,9 @@ $(function(){
 		event.preventDefault()
 		blueimp.Gallery($('#secret-birthday-links a'), $('#blueimp-gallery').data())
 	})
+
+	$('#polygon-conference-portfolio').on('click', function (event) {
+		event.preventDefault()
+		blueimp.Gallery($('#polygon-conference-links a'), $('#blueimp-gallery').data())
+	})
 })
