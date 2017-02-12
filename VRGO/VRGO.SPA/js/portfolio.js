@@ -28,4 +28,9 @@ $(function(){
 		event.preventDefault()
 		blueimp.Gallery($('#polygon-conference-links a'), $('#blueimp-gallery').data())
 	})
+
+	$('#altoros-winter-party-portfolio').on('click', function (event) {
+		event.preventDefault()
+		blueimp.Gallery($('#altoros-winter-party-links a'), $('#blueimp-gallery').data())
+	})
 })
